@@ -22,6 +22,13 @@ class ViewController: UIViewController {
         line.lineDashPattern = [4, 4]
         return line
     }()
+    
+    fileprivate lazy var layerLine: DashLineReplicatorLayer = {
+        let layer = DashLineReplicatorLayer(direction: .vertical,
+                                            startPosition: CGPoint(x: 10, y: 20),
+                                            count: 1000)
+        return layer
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +38,9 @@ class ViewController: UIViewController {
         /// 设置动画
         view.addSubview(line)
         line.updateLine()
+        
+        // layer 虚线
+        view.layer.addSublayer(layerLine)
     }
     
 }

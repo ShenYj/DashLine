@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F71FD87F27BF9687007D3C07 /* DashLineReplicatorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71FD87E27BF9687007D3C07 /* DashLineReplicatorLayer.swift */; };
 		F7A3901A272541D700E673EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8DF572725418900B47AFB /* ViewController.swift */; };
 		F7A3901B272541D700E673EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8DF5D2725418900B47AFB /* AppDelegate.swift */; };
 		F7A390222725434200E673EC /* DashLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A390212725434100E673EC /* DashLine.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F71FD87E27BF9687007D3C07 /* DashLineReplicatorLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashLineReplicatorLayer.swift; sourceTree = "<group>"; };
 		F7A390212725434100E673EC /* DashLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashLine.swift; sourceTree = "<group>"; };
 		F7A3902A2725565C00E673EC /* DashLine.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DashLine.podspec; sourceTree = "<group>"; };
 		F7E8DF2C27253FFE00B47AFB /* DashLine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DashLine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 		F7E8DF562725418900B47AFB /* iOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F71FD87E27BF9687007D3C07 /* DashLineReplicatorLayer.swift */,
 				F7E8DF572725418900B47AFB /* ViewController.swift */,
 				F7E8DF5D2725418900B47AFB /* AppDelegate.swift */,
 				F7E8DF592725418900B47AFB /* LaunchScreen.storyboard */,
@@ -240,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71FD87F27BF9687007D3C07 /* DashLineReplicatorLayer.swift in Sources */,
 				F7A390222725434200E673EC /* DashLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
